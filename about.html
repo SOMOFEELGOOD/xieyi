@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>home</title>
+		<link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	</head>
+	<body>
+		<!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+             <li ><a href="index.html">Home</a></li>
+            <li><a href="about.html">ABOUT <span class="sr-only">(current)</span></a></li>
+            <li><a href="Renderings.html">Renderings</a></li>
+            <li><a href="BIM.html">BIM</a></li>
+            <li><a href="3D.html">3D Animate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+	<div class="bg">
+	    <div class="container">
+	    	
+	    	<header>
+	    		<img src="img/about-header.png" alt="" />
+	    	</header>
+	    	
+	      	<div class="our">
+	      		<span>ABOUT US</span>
+	      		<div class="line"></div>
+	    		</div>
+	    <section>
+	    	<br /><br /><br /><br />
+	    		<h3>
+	    			Shining CG is a creative corporation that specializes in portraying unbuilt architecture. We help the architect and the owners to convert building still in the design stage, into visual images or video, show the essence of complete building.
+			</h3>
+			<br /><br />
+			<h3>
+Since the year of 1998, we have finished more than 20000 3D visualization creativities of all Kinds of architecture for nearly 2000 architect firms both at home and abroad. We have used 3D technology, shooting, drawing and architectonic to provide the clients with the services of CG images, CG animations, BIM and 3D products finally.
+	    		</h3>
+	    </section>
+		 </div> 
+	</div>		
+	<footer>
+		<div class="contactUs">
+				<span>CONTACT US</span>
+	      		<div class="line"></div>
+	      </div>
+		
+	      <div class="phone">
+	      	<p>
+	      		Email:eric@shining365.com
+	      		<br />
+	      		Mobile Phone:86 138 1690 3400
+	      		<br />
+	      		Tel: +86 21 6598 6866-304 +86 21 65698 3188-304
+	      		
+	      	</p>
+
+	      </div>
+	</footer>
+	<div class="wei">
+		Copyright © 1998-2015 shining Group
+	
+	</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript">		
+			$(function(
+			
+			//nav
+			var list = $(".navbar-default .navbar-nav li a")
+			
+			$(list).on("mouseenter",function(){
+				$(this).css({
+					backgroundColor:"#cfdb00"
+				})
+				
+			})
+			$(list).on("mouseleave",function(){
+				$(this).css({
+					backgroundColor:"#fefefe"
+				})
+					
+			})
+			
+			))
+			
+		</script>
+	</body>
+</html>

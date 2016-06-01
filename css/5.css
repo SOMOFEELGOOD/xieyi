@@ -1,0 +1,430 @@
+.navbar-brand{
+	background: url(../img/shnng.png) no-repeat;
+	background-size: 100% 100%;
+	width: 130px;
+	height: 30px;
+	margin-top: 10px;
+}
+.navbar-default .navbar-nav>li>a{
+	font-size: 1.4rem;
+
+}
+.navActive{
+	background-color:#cfdb00;
+}
+.navbar-default{
+	background-color: #fefefe;
+	box-shadow: 0 1px 2px #c0c0c0;
+}
+
+.navbar{
+	
+	margin-bottom:0;
+}
+
+/*container*/
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+
+.bg{
+	width: 100%;
+	/*height: 70%;*/
+	background-color: #f5f5f5;
+
+
+	
+	
+}
+.container{
+	width: 100%;
+	height: 100%;
+	max-width: 1024px;
+	
+}
+.container .our{
+
+	width: 75%;
+	height: 30px;
+	margin: 50px auto 40px auto;
+	text-align: center;	
+}
+
+.container .our .line{
+	width: 100%;
+	height: 1px;
+	border:1px solid #cfdb00;
+	margin-top: -16px;
+}
+.container .our span{
+	font-size: 1.3rem;
+	color:#616161;
+	line-height: 30px;
+	background-color:#f5f5f5;
+	border-left:10px solid #f5f5f5;
+	border-right:10px solid #f5f5f5;
+}
+
+/*header*/
+header{
+	width: 100%;
+	height: 6%;
+}
+section{
+	width: 100%;
+	height: 94%;
+	/*background-color: blue;*/
+}
+section ul{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+section ul li{
+	position: relative;
+	width: 100%;
+	height: 375px;
+}
+section ul li:nth-of-type(1){
+	background:url(../img/BIM/F1-bg.png) no-repeat;
+	background-size: 100% 100%;
+}
+section ul li:nth-of-type(1) .pic{
+	width: 43%;
+	height:43%;
+	/*background-color: red;*/
+	position: absolute;
+	left: 9%;
+	top: 48%;
+}
+section ul li:nth-of-type(1) .pic img{
+	width: 37%;
+	position: absolute;
+	height: 100%;
+	
+}
+
+
+section ul li:nth-of-type(1) .pic img:nth-of-type(1){
+	z-index: 4;
+}
+section ul li:nth-of-type(1) .pic img:nth-of-type(2){
+	left:20%;
+	z-index: 3;
+}
+section ul li:nth-of-type(1) .pic img:nth-of-type(3){
+	left:40%;
+	z-index: 2;
+}
+section ul li:nth-of-type(1) .pic img:nth-of-type(4){
+	left:60%;
+	z-index: 1;
+}
+section ul li:nth-of-type(1) .b1{
+	position: absolute;
+	width: 34%;
+	height: 164%;
+	top: 18%;
+	left: 54%;
+}
+
+
+
+section ul li:nth-of-type(1) h1{
+	position: absolute;
+	background-color: #cfdb00;
+	font-size: 1.2rem;
+	width: 43%;
+	left: 9%;
+	top: 31%;
+	outline: 7px solid #cfdb00;
+
+	
+}
+section ul li:nth-of-type(1) h2{
+	position: absolute;
+	font-size: 0.9rem;
+	width: 43%;
+	left: 9%;
+	top: 40%;
+
+}
+
+/*section ul li:nth-of-type(2){
+	
+}*/
+
+section ul li:nth-of-type(2) h1{
+	position: absolute;
+	background-color: #cfdb00;
+	font-size: 1.2rem;
+	width: 43%;
+	left: 9%;
+	top: 31%;
+	outline: 7px solid #cfdb00;
+
+	
+}
+section ul li:nth-of-type(2) h2{
+	position: absolute;
+	font-size: 0.9rem;
+	width: 43%;
+	left: 9%;
+	top: 40%;
+
+}
+section ul li:nth-of-type(2) .b2{
+	width: 100%;
+	height: 100%;
+	opacity: 0.2;
+}
+.mengceng{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.1);
+}
+section ul li:nth-of-type(1){
+	z-index:10;
+}
+section ul li:nth-of-type(2){
+	z-index: 9;
+}
+
+
+
+
+
+
+
+section ul li:nth-of-type(2) .pic{
+	width: 43%;
+	height:50%;
+	/*background-color: red;*/
+	position: absolute;
+	left: 9%;
+	top: 52%;
+}
+section ul li:nth-of-type(2) .pic img{
+	width: 42%;
+	/*height: 100%;*/
+	float: left;
+	margin: 3%;
+}
+
+/*section ul li:nth-of-type(3){
+	
+}*/
+/*section ul li:nth-of-type(3){
+	background:url(../img/BIM/F2-bg.png) no-repeat;
+	background-size: 100% 100%;
+}*/
+section ul li:nth-of-type(3){
+	background:url(../img/BIM/F3-bg.png) no-repeat;
+	background-size: 100% 100%;
+}
+section ul li:nth-of-type(3) h1{
+	position: absolute;
+	background-color: #cfdb00;
+	font-size: 1.2rem;
+	width: 43%;
+	left: 34%;
+	top: 26%;
+	outline: 7px solid #cfdb00;
+}
+section ul li:nth-of-type(3) h2{
+	position: absolute;
+	font-size: 0.9rem;
+	width: 43%;
+	left: 34%;
+	top: 35%;
+}
+
+section ul li:nth-of-type(3) .pic{
+	width: 43%;
+	height:50%;
+	/*background-color: red;*/
+	position: absolute;
+	left: 34%;
+	top: 52%;
+}
+section ul li:nth-of-type(3) .pic img{
+	width: 42%;
+	/*height: 100%;*/
+	float: left;
+	margin: 3%;
+}
+section ul li:nth-of-type(3) .b2{
+	position: absolute;
+	width: 34%;
+	height: 164%;
+	left: 4%;
+	top: 12%;
+
+	
+}
+
+
+
+/*section ul li:nth-of-type(4){
+	
+}*/
+section ul li:nth-of-type(4){
+	z-index: 9;
+	/*background:url(../img/BIM/F4-bga.png) no-repeat;
+	background-size: 100% 100%;*/
+	/*-webkit-filter: grayscale(100%)*/
+}
+
+section ul li:nth-of-type(4) h1{
+	position: absolute;
+	background-color: #cfdb00;
+	font-size: 1.2rem;
+	width: 43%;
+	left: 34%;
+	top: 26%;
+	outline: 7px solid #cfdb00;
+}
+section ul li:nth-of-type(4) h2{
+	position: absolute;
+	font-size: 0.9rem;
+	width: 43%;
+	left: 34%;
+	top: 35%;
+}
+
+section ul li:nth-of-type(4) .pic{
+	width: 43%;
+	height:50%;
+	/*background-color: red;*/
+	position: absolute;
+	left: 34%;
+	top: 45%;
+}
+section ul li:nth-of-type(4) .pic img{
+	width: 42%;
+	/*height: 100%;*/
+	/*float: left;*/
+	margin: 3%;
+}
+section ul li:nth-of-type(4) .b3{
+	position: absolute;
+	width: 34%;
+	height: 164%;
+	top: 12%;
+	left: 62%;
+}
+
+
+
+
+/*section ul li:nth-of-type(5){
+	
+}*/
+section ul li:nth-of-type(5){
+	/*background:url(../img/BIM/F5-bg.png) no-repeat;
+	background-size: 100% 100%;*/
+	z-index: 8;
+}
+section ul li:nth-of-type(5) h1{
+	position: absolute;
+	background-color: #cfdb00;
+	font-size: 1.2rem;
+	width: 43%;
+	left: 16%;
+	top: 45%;
+	outline: 7px solid #cfdb00;
+	
+}
+section ul li:nth-of-type(5) h2{
+	position: absolute;
+	font-size: 0.9rem;
+	width: 43%;
+	left: 16%;
+	top: 57%;
+
+}
+section ul li:nth-of-type(5) .b5{
+width: 100%;
+height: 100%;
+
+opacity: 0.2;
+}
+
+
+
+/*section*/
+
+section{
+	position: relative;
+}
+
+.goTop{
+	width: 100%;
+	position:absolute;
+	bottom: 0;
+	z-index: 100;
+
+	
+}
+.goTop img{
+	width: 35px;
+	height: 30px;
+	margin:auto;
+
+}
+
+
+
+
+/*footer*/
+footer{
+	width: 100%;
+	height: 20%;
+	margin: 0 auto;
+}
+
+footer .contactUs{
+	width: 46%;
+	height: 30px;
+	margin: 5% auto 5% auto;
+	text-align: center;	
+}
+
+footer .contactUs .line{
+	width: 100%;
+	height: 1px;
+	border:1px solid #cfdb00;
+	margin-top: -16px;
+}
+footer .contactUs span{
+	font-size: 1.3rem;
+	color:#616161;
+	line-height: 30px;
+	background-color: #ffffff;
+	border-left:10px solid #ffffff;
+	border-right:10px solid #ffffff;
+}
+
+footer .phone{
+	text-align: center;
+	font-size: 0.5rem;
+}
+
+.wei{
+	width: 100%;
+	height: 2.8%;
+	background-color: #b4b4b4;
+	border-top:2px solid #cfdb00;
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+}
+
+.navbar-header{
+	height: 2.8%;
+}
+	
